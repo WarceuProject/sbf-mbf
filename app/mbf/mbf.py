@@ -93,7 +93,7 @@ def warceu():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/muhammad.eris.1606"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/m.eris.1406"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
@@ -303,7 +303,7 @@ def warceu():
                    print()
                    yamatekudasay()
                    jembut()
-                   print('\n\x1b[1;96m  ⚅⚄⚃⚂⚁⚀♧♢♤♡')
+                   print('\n\x1b[1;96m              ⚅⚄⚃⚂⚁⚀♧♢♤♡')
                    print('\x1b[1;95m     疊╔═╦═────••☣️••────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••☣️••────═╩═╝疊\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Pass1 \033[1;91m: \033[1;92m")
@@ -314,7 +314,7 @@ def warceu():
                    mpess('\x1b[1;94m────────────────────────────────────────────────────\n')
                    yamatekudasay()
                    jembut()
-                   print('\n\x1b[1;92m        ⚅⚄⚃⚂⚁⚀♧♢♤♡')
+                   print('\n\x1b[1;92m               ⚅⚄⚃⚂⚁⚀♧♢♤♡')
                    print('\x1b[1;97m     疊╔═╦═────••☣️•─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••☣️••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
